@@ -23,18 +23,14 @@
       </nav>
     <h1>Página de Cadastro</h1>
 
-    <form  method="get" >
+    <form method="post" action="cadastro.php"> 
         <input type="text" name="nome" placeholder="Digite seu nome"><br>
         <input type="text" name="sobrenome" placeholder="Digite seu sobrenome"><br>
         Data de nascimento: <input type="date" name="nascimento"><br>
-        <input type="button" value="enviar" onclick="msg()">
+        <input type="submit" value="enviar">
     </form>
     
 
 </body>
-<script>
-    function msg (){
-        alert("Foi cadastrado com sucesso!");
-    }
-</script>
+
 </html>
