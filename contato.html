@@ -22,24 +22,24 @@
           </nav>
 
     <h1>Formulário de Contato</h1>
-    <form>
+    <form method="post" action="contato.php">
+
         <label for="Name">Nome:</label><br>
-    <input type="text" name="NOME" placeholder="Digite seu nome"><br>
-   <label for="E-mail">E-mail:</label><br>
-   <input type="email" name="E-MAIL" placeholder="Digite seu e-mail"><br>
-   <label for="Telephone">Telefone:</label><br>
-   <input type="tel" name="TELEFONE" placeholder="Digite seu telefone"><br>
-   <input type="button" value="enviar" onclick="msg()">
+    <input type="text" name="nome" placeholder="Digite seu nome"><br>
+   
+   <input type="email" name="email" placeholder="Digite seu e-mail"><br>
+   
+   <input type="tel" name="telefone" placeholder="Digite seu telefone"><br>
+
+   <input type="submit" value="enviar">
+
     </form>
+    
     <footer class="rodape">
         <div>Contato: <a class="cor-rodape" href="sesisenai@educ.com">sesisenai@educ.com</a></div>
         
         <div><a class="cor-rodape"  href="(18) 3361-2573"> Telefone: (18) 3361-2573</a></div>
     </footer>
 </body>
-<script>
-    function msg (){
-        alert("Foi cadastrado com sucesso!");
-    }
-</script>
-</html>
+
+</html>               
