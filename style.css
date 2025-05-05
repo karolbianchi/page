@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #eef2f7;
+    background-color: #3573fa;
     color: #333;
   }
   
@@ -47,7 +47,7 @@ body {
   }
   
   nav {
-    background-color: #ffffff;
+    background-color: #8fb2fd;
     padding: 15px 0;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
