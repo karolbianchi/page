@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
 
 </head>
 <body>
-     
+    <div class="box-conteudo">
         <img src="img/logosenai.jpeg" alt="logo" class="logo">
         <nav>
             <ul>
@@ -28,6 +29,7 @@
    <input type="email" name="E-MAIL" placeholder="Digite seu e-mail"><br>
    <label for="Telephone">Telefone:</label><br>
    <input type="tel" name="TELEFONE" placeholder="Digite seu telefone"><br>
+   <input type="button" value="enviar" onclick="msg()">
     </form>
     <footer class="rodape">
         <div>Contato: <a class="cor-rodape" href="sesisenai@educ.com">sesisenai@educ.com</a></div>
@@ -35,4 +37,9 @@
         <div><a class="cor-rodape"  href="(18) 3361-2573"> Telefone: (18) 3361-2573</a></div>
     </footer>
 </body>
+<script>
+    function msg (){
+        alert("Foi cadastrado com sucesso!");
+    }
+</script>
 </html>
